@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Preview Gambar Rounded</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+   
+  <div class="container py-5">
+    <h2 class="text-center mb-4">Preview Gambar Rounded (Klik untuk Melihat Detail)</h2>
+
+    <div class="row text-center">
+      <div class="col">
+        <img src="nabila.jpg" class="img-thumbnail rounded" alt="Rounded" data-bs-toggle="modal" data-bs-target="#modal1">
+        <div class="small mt-2 text-muted">.rounded</div>
+      </div>
+      <div class="col">
+        <img src="nabila1.jpg" class="img-thumbnail rounded-top" alt="Rounded Top" data-bs-toggle="modal" data-bs-target="#modal2">
+        <div class="small mt-2 text-muted">.rounded-top</div>
+      </div>
+      <div class="col">
+        <img src="teman.jpg" class="img-thumbnail rounded-end" alt="Rounded End" data-bs-toggle="modal" data-bs-target="#modal3">
+        <div class="small mt-2 text-muted">.rounded-end</div>
+      </div>
+      <div class="col">
+        <img src="friends2.jpg.jpg" class="img-thumbnail rounded-bottom" alt="Rounded Bottom" data-bs-toggle="modal" data-bs-target="#modal4">
+        <div class="small mt-2 text-muted">.rounded-bottom</div>
+      </div>
+      <div class="col">
+        <img src="fotoku.jpg.jpg" class="img-thumbnail rounded-start" alt="Rounded Start" data-bs-toggle="modal" data-bs-target="#modal5">
+        <div class="small mt-2 text-muted">.rounded-start</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 1 -->
+  <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <img src="family.jpg" class="img-fluid mb-3" alt="Rounded">
+          <p>.rounded - Semua sudut membulat</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <img src="family3.jpg" class="img-fluid mb-3" alt="Rounded Top">
+          <p>.rounded-top - Sudut atas membulat</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <img src="friends2.jpg.jpg" class="img-fluid mb-3" alt="Rounded End">
+          <p>.rounded-end - Sudut kanan membulat</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modalLabel4" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <img src="friends2.jpg.jpg" class="img-fluid mb-3" alt="Rounded Bottom">
+          <p>.rounded-bottom - Sudut bawah membulat</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modalLabel5" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <img src="fotoku.jpg.jpg" class="img-fluid mb-3" alt="Rounded Start">
+          <p>.rounded-start - Sudut kiri membulat</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
